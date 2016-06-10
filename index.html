@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Directives</title>
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <script src="./angular.min.js"></script>
+    <style>
+        li {
+            margin-right: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<div data-ng-controller="CircleCtrl">
+
+    <step-indicator step="3" totalsteps="5"></step-indicator>
+
+</div>
+
+<script src="./ngCircle.directive.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
